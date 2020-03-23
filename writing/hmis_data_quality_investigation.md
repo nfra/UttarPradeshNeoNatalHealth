@@ -1,0 +1,83 @@
+An Investigation into the Quality of HMIS Data
+================
+
+## The Question
+
+Email 1
+
+> The last NFHS was in 2015. In the decade before, hospital birth
+> increased dramatically from 40% to 80%. Has it further increased
+> since? The only data source that *might* help answer this is health
+> monitoring system (HMIS) data from the government. But we don’t know
+> how reliable it is. If someone cleans and organizes the HMIS data, it
+> could be matched to NFHS-4 data to see whether it reliably reported
+> the proportion of hospital births in different places in 2015. (It
+> probably did not reliably report deaths.) If it did, then let’s see
+> what it says about the proportion of births that took place in
+> hospitals in 2019 and see if we trust it.
+
+Email 2
+
+> This is substantially going to be a task of assessing data quality –
+> do these data make any sense? Do some indicators or states make sense
+> but not others? Whatever you end up learning about it will be useful
+> because I have other colleagues who work on health in India who are
+> interested in it to.  
+> I’m also interested in a very specific question: do the numbers on
+> place of delivery (proportion of babies born at home, in public
+> hospitals, and private hospitals) in the HMIS match a high quality
+> sample survey (the NFHS-4)?  
+> To get started, I shared a google drive folder that contains HMIS
+> (health monitoring information system) data on maternal and child
+> health. Here are some steps.  
+> Download 2014-2015 data.  
+> First figure out whether it seems to be cumulative throughout the year
+> or quarterly data? One thing that is annoying is that there are a lot
+> of repeat file names which might make working with these spreadsheets
+> more difficult.  
+> Once you’d figured the data out a bit, compute the proportion of
+> births it claims occurred in private, public, and at home in each
+> state for 2014-15.  
+> Then download and open the NFHS-4. Look at place of birth (using
+> weights of course) for 2014-15 births. You’ll have to code the place
+> of birth variable yourself based on a wider set of categories, but it
+> should not be too hard.  
+> Compare the two data sources. Does the HMIS match the NFHS? (could you
+> make a graph or a table to show it?)  
+> If so, could you please look at what fraction of births happen at
+> home, private, and public in each state in 2018-2019 in the HMIS?  
+> If, along the way, you find other interesting things, please let me
+> know. (One thing is that I think the HMIS basically does not report
+> neonatal mortality.)
+
+## HMIS Data Characteristics
+
+The HMIS data is provided in two explicit levels of aggregation: at the
+district level and at the sub-district level. For the purpose of
+investigating the quality of HMIS data compared to NFHS-4 data, we will
+use the district-level data.
+
+For the year 2014-2015, the data is provided **cumulatively** each
+quarter. That is, data is available for the periods
+
+  - from April 2014 to June 2014 – the first quarter of Indian fiscal
+    year (FY) 2014-2015 – in the directory “MonthUpToJune”,
+  - from April 2014 to September 2014 – the first two quarters of FY
+    2014-2015 – in the directory “MonthUpToSeptember”,
+  - from April 2014 to December 2014 – the first three quarters of FY
+    2014-2015 – in the directory “MonthUpToDecember”,
+  - from April 2014 to March 2015 – all of FY 2014-2015 – in the
+    directory “MonthUpToMarch”.
+
+Within each of the quarterly directories, there are yet more directories
+for each of the Indian states containing district- or sub-district-level
+data. There is also a directory with data aggregated to the state level,
+which is what we will use for comparison to NFHS-4 data. The file from
+which we’ll extract the data has the following address:  
+"./nrhm\_files/district/2014-2015/MonthUpToMarch/\_ALL INDIA/All.xls"
+
+The HMIS reports 166 indicators. The indicator columns are color-coded:
+white for counts and gray for percentages. Those we care about are
+called “Number of Home deliveries”, “Deliveries Conducted at Public
+Institutions”, “Institutional deliveries (Public Insts.+Pvt. Insts.)”,
+and “Total reported deliveries”.
