@@ -1,0 +1,17 @@
+---
+title: "An Investigation into the Quality of HMIS Data"
+author: "Nathan Franz"
+output: github_document
+---
+
+
+## The Question
+
+> The last NFHS was in 2015.  In the decade before, hospital birth increased dramatically from 40% to 80%.  Has it further increased since?  The only data source that *might* help answer this is health monitoring system (HMIS) data from the government.  But we don't know how reliable it is.  If someone cleans and organizes the HMIS data, it could be matched to NFHS-4 data to see whether it reliably reported the proportion of hospital births in different places in 2015.  (It probably did not reliably report deaths.)  If it did, then let's see what it says about the proportion of births that took place in hospitals in 2019 and see if we trust it.
+
+## HMIS Data
+
+The 2014-2015 HMIS data is available
+
+
+
