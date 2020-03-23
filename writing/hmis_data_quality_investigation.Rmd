@@ -1,6 +1,8 @@
 ---
 title: "An Investigation into the Quality of HMIS Data"
-output: github_document
+author: "Nathan Franz"
+date: "3/23/2020"
+output: pdf_document
 ---
 
 
@@ -38,5 +40,7 @@ Within each of the quarterly directories, there are yet more directories for eac
 "./nrhm_files/district/2014-2015/MonthUpToMarch/_ALL INDIA/All.xls" 
 
 The HMIS reports 166 indicators. The indicator columns are color-coded: white for counts and gray for percentages. Those we care about are called "Number of Home deliveries", "Deliveries Conducted at Public Institutions", "Institutional deliveries (Public Insts.+Pvt. Insts.)", and "Total reported deliveries".
+
+## NFHS-4 Data Characteristics
 
 
