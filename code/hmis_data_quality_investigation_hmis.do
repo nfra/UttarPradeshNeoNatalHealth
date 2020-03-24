@@ -17,4 +17,5 @@ label variable pct_pbl_dlv "Pctg. delivered at public inst. of all reported babi
 gen pct_pvt_dlv = num_pvt_dlv / tot_rptd_dlv * 100
 label variable pct_pvt_dlv "Pctg. delivered at private inst. of all reported babies delivered in FY14-15"
 
+* This table looks per-state percentage of deliveries in each place
 table state, c(mean pct_hom_dlv  mean pct_pbl_dlv  mean pct_pvt_dlv) row col

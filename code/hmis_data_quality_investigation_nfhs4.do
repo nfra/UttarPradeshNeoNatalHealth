@@ -7,7 +7,7 @@ use ".\UttarPradeshNeoNatalHealth\data\nfhs4_files\IABR74FL.DTA""
 
 generate wgt = sv005/1000000
 
-label variable "state women's sample weight, decimalized"
+label variable wgt "state women's sample weight, decimalized"
 
 * This table looks at the per-state means of state sample weight, which I would 
 * expect to be 1.
@@ -21,7 +21,8 @@ replace place_of_dlv = "other" if m15 == 96
 
 label variable place_of_dlv "place of delivery; fewer, more-general categories"
 
-tab v024 place_of_dlv [iweight=wgt]
+* This table looks per-state percentage of deliveries in each place, using weights
+tab v024 place_of_dlv [iweight=wgt], row nofreq
 
 * This table looks at the per-state means of state sample weight for those 
 * observations with place of delivery specified to see if weights still work
