@@ -5,9 +5,6 @@ date: "3/23/2020"
 output: pdf_document
 ---
 
-## Bottom Line Up Front
-
-While there is some correspondence between the two sources, I don't think the 2018-2019 HMIS data would be of much value to this line of research. I may be wrong, though! Take a look at the final graphs.
 
 ## The Question
 
@@ -204,3 +201,22 @@ I had to do an unfortunate amount of manual manipulation of the data structures 
 ![Per-state percentage comparison for deliveries at private institutions](../figures/pct_private_plot.png)
 
 ![Per-state percentage comparison for deliveries at public institutions](../figures/pct_public_plot.png)
+
+\newpage
+
+## Response
+
+Email 3:
+
+> That is actually not as far from the NFHS as I would have expected considering that government employees who report to the HMIS have an incentive to over-report the number of births in their facilities in order to get more supplies, staff, etc.  And private facilities have an incentive to under-report because local authorities might close them down or extract bribes.
+
+> So, maybe it is worth looking at the HMIS for 2018-2019.  The amount by which it is wrong is not likely to be higher than it was in 2014 since that have been efforts to monitor hospitals in other domains that could have spilled over into improving reporting.
+
+> Would it be possible to let me know for the following places what proportion of births in the HMIS in 2018-19 happened in public, private, and home?  The regions I'm interested in are:
+
+> 1. Uttar Pradesh
+> 2. all India
+> 3. Bihar, Madhya Pradesh, Jharkhand, Chattisgarh, and Madhya Pradesh as if it were one region (the reason is that these states, plus Uttar Pradesh used to be called "BIMARU" (which is a derogatory term meaning "sick" that isn't politically correct), but in neonatal health this group seems to have improved faster than UP.  Part of the work of the book is trying to understand why Uttar Pradesh has lagged behind states that used to be considered its "peers" on social, economic and health indicators.)
+> 4. Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telegana as if they were one region (this is "south India", which is culturally distinct from the north and typically has better health outcomes)
+
+## HMIS 2018-2019 Birth Estimates
