@@ -1,7 +1,7 @@
 * Name: hmis_data_quality_investigation_comparison
 * Written by: Nathan Franz
 * Description: An investigation into the quality of HMIS data -- comparison portion
-* Last edited: 3/23/2020
+* Last edited: 3/24/2020
 
 use ".\UttarPradeshNeoNatalHealth\data\comparison_per_state.dta"
 

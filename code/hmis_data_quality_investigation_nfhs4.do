@@ -5,13 +5,19 @@
 
 use ".\UttarPradeshNeoNatalHealth\data\nfhs4_files\IABR74FL.DTA""
 
-generate wgt = sv005/1000000
+* Keep only births in period of interest: Apr 2014 - Mar 2015
+* In CMCs, this is 1372 - 1383
+keep if b3 >=1372 & b3<=1383
 
-label variable wgt "state women's sample weight, decimalized"
+generate overall_wgt = v005/1000000
+label variable overall_wgt "women's sample weight, decimalized"
+
+generate state_wgt = sv005/1000000
+label variable state_wgt "state women's sample weight, decimalized"
 
 * This table looks at the per-state means of state sample weight, which I would 
 * expect to be 1.
-table v024, c(mean wgt)
+table v024, c(mean state_wgt)
 
 * Note that the numbers associated with the places came from the accompanying DO file
 gen place_of_dlv = "home" if inlist(m15, 10, 11, 12, 13)
@@ -21,10 +27,13 @@ replace place_of_dlv = "other" if m15 == 96
 
 label variable place_of_dlv "place of delivery; fewer, more-general categories"
 
-* This table looks per-state percentage of deliveries in each place, using weights
-tab v024 place_of_dlv [iweight=wgt], row nofreq
+* This table gives per-state percentage of deliveries in each place, using state weights
+tab v024 place_of_dlv [iweight=state_wgt], row nofreq
+
+* This table gives in the second column percentage of deliveries in each place, using overall weights 
+tab place_of_dlv [iweight=overall_wgt]
 
 * This table looks at the per-state means of state sample weight for those 
 * observations with place of delivery specified to see if weights still work
 keep if m15 != .
-table v024, c(mean wgt)
+table v024, c(mean state_wgt)

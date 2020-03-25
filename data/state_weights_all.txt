@@ -1,0 +1,39 @@
+
+state	mean(state_~t)
+	
+andaman and nicobar islands	.9254032
+andhra pradesh	.97429
+arunachal pradesh	1.024422
+assam	.9989088
+bihar	1.003095
+chandigarh	.9392699
+chhattisgarh	1.031145
+dadra and nagar haveli	.9878447
+daman and diu	1.0272
+goa	1.030904
+gujarat	.9709162
+haryana	.9914187
+himachal pradesh	.9945994
+jammu and kashmir	.95306
+jharkhand	1.018084
+karnataka	.9664942
+kerala	.9795464
+lakshadweep	.9709369
+madhya pradesh	.9896039
+maharashtra	.9448661
+manipur	.9319845
+meghalaya	1.015393
+mizoram	.9117232
+nagaland	.9574894
+delhi	1.132698
+odisha	.975834
+puducherry	.9731051
+punjab	.9990199
+rajasthan	1.001183
+sikkim	.9950843
+tamil nadu	.9796225
+tripura	.9904967
+uttar pradesh	.9897068
+uttarakhand	.9916922
+west bengal	.999367
+telangana	.9480488
