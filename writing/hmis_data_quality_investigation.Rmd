@@ -221,14 +221,18 @@ Email 3:
 
 ## HMIS 2018-2019 Results for Regions of Interest
 
-Using the HMIS 2018-2019 data (which are still provisional), I find the following estimates for proportion of births in each place, where "BIMARU +" refers to Bihar, Madhya Pradesh, Jharkhand, Chhattisgarh, Uttarakhand, and Rajasthan.
+Using the HMIS 2018-2019 data (which are still provisional), I find the following estimates for proportion of births in each place, where "Hindi Belt" refers to Bihar, Madhya Pradesh, Jharkhand, Chhattisgarh, Uttarakhand, and Rajasthan.
 
 | Region        | % Home | % Private | % Public |
 |---------------|--------|-----------|----------|
 | Uttar Pradesh | 14.4   | 25.9      | 74.1     |
 | All India     | 6.6    | 30.7      | 69.3     |
-| "BIMARU"      | 10.8   | 11.2      | 78.0     |
-| "BIMARU" +    | 9.0    | 14.2      | 76.8     |
+| Hindi Belt    | 9.0    | 14.2      | 76.8     |
 | South India   | 0.2    | 49.2      | 50.6     |
 
-## 
+## HMIS 2014-2015 Undercoverage of Births Compared to UN WPP Data
+
+
+
+## HMIS 2018-2019 Undercoverage of Births Compared to UN WPP Data
+
