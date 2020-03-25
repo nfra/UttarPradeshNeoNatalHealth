@@ -34,7 +34,7 @@ Email 2
 
 > If, along the way, you find other interesting things, please let me know.  (One thing is that I think the HMIS basically does not report neonatal mortality.)
 
-## HMIS Data Characteristics
+## HMIS 2014-2015 Data Characteristics
 
 The HMIS data is provided in two explicit levels of aggregation: at the district level and at the sub-district level. For the purpose of investigating the quality of HMIS data compared to NFHS-4 data, we will use the district-level data.
 
@@ -51,7 +51,7 @@ The HMIS reports 166 indicators. The indicator columns are color-coded: white fo
 
 \newpage
 
-## HMIS Results
+## HMIS 2014-2015 Results for Each State and All of India
 
 I find these per-state percentages for place of delivery.
 
@@ -145,7 +145,7 @@ One interesting thing: I've never worked with survey data before, but I would've
 | Uttarakhand          | 0.999367          | 0.9999779                     |
 | West Bengal          | 0.9480488         | 0.9491556                     |
 
-## NFHS-4 Results
+## NFHS-4 Results for Each State and All of India
 
 Using the weight variables (divided by 10^6^), I find these per-state and all-India percentages for place of delivery for births in 2014-2015.
 
@@ -219,4 +219,16 @@ Email 3:
 > 3. Bihar, Madhya Pradesh, Jharkhand, Chattisgarh, and Madhya Pradesh as if it were one region (the reason is that these states, plus Uttar Pradesh used to be called "BIMARU" (which is a derogatory term meaning "sick" that isn't politically correct), but in neonatal health this group seems to have improved faster than UP.  Part of the work of the book is trying to understand why Uttar Pradesh has lagged behind states that used to be considered its "peers" on social, economic and health indicators.)
 > 4. Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telegana as if they were one region (this is "south India", which is culturally distinct from the north and typically has better health outcomes)
 
-## HMIS 2018-2019 Birth Estimates
+## HMIS 2018-2019 Results for Regions of Interest
+
+Using the HMIS 2018-2019 data (which are still provisional), I find the following estimates for proportion of births in each place, where "BIMARU +" refers to Bihar, Madhya Pradesh, Jharkhand, Chhattisgarh, Uttarakhand, and Rajasthan.
+
+| Region        | % Home | % Private | % Public |
+|---------------|--------|-----------|----------|
+| Uttar Pradesh | 14.4   | 25.9      | 74.1     |
+| All India     | 6.6    | 30.7      | 69.3     |
+| "BIMARU"      | 10.8   | 11.2      | 78.0     |
+| "BIMARU" +    | 9.0    | 14.2      | 76.8     |
+| South India   | 0.2    | 49.2      | 50.6     |
+
+## 
