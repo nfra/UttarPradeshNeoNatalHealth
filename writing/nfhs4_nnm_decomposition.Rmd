@@ -1,0 +1,27 @@
+---
+title: "Decomposition of Neo-Natal Mortality in Uttar Pradesh by Mother's Height"
+author: "Nathan Franz"
+date: "4/5/2020"
+output: pdf_document
+---
+
+## The Question
+
+> The data you'd be using for the decomposition is the NFHS-2015 birth recode. 
+
+> Could you please decompose the difference in NNM between UP and the rest of India by the mother's height (the mother's height variable in the birth recode, v438, needs to be divided by 10 to get height in cm; also please drop anyone who is less than 4.5 feet and more than 6 feet tall)?
+
+> Could you please do this as a reweighting decomposition (which you'll learn about in the PhD class) where you ask: if the distribution of mothers' heights matched the distribution of heights in the rest of India, what would NNM be?
+
+> Could you please also do this as a Kitagawa decomposition (which I think you already learned) where you ask: How much of the difference in NNM between UP and the rest of India can be explained by variation in NNM within height categories, and how much can be explained by differences in the distribution of height?
+
+> Since this is sort of an exercise for now, maybe you could do it twice, using deciles and then centiles of height in cm?
+
+> (The attached lpoly graph suggests that height doesn't explain it all -- although it will be interesting to see what the decomposition numbers say.  I'm also working on some analysis that looks specifically at adolescents, height, and NNM which is still puzzling me a bit.)
+
+
+## Using Reweighting Decomposition
+
+## Using Kitagawa Decomposition
+
+## Comparing the Two Methods
