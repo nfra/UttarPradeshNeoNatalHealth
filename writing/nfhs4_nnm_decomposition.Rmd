@@ -1,11 +1,13 @@
 ---
-title: "Decomposition of Neo-Natal Mortality in Uttar Pradesh by Mother's Height"
+title: "Decomposition of Neonatal Mortality in UP by Mother's Height"
 author: "Nathan Franz"
-date: "4/5/2020"
+date: "4/7/2020"
 output: pdf_document
 ---
 
 ## The Question
+
+Email 1
 
 > The data you'd be using for the decomposition is the NFHS-2015 birth recode. 
 
@@ -19,9 +21,25 @@ output: pdf_document
 
 > (The attached lpoly graph suggests that height doesn't explain it all -- although it will be interesting to see what the decomposition numbers say.  I'm also working on some analysis that looks specifically at adolescents, height, and NNM which is still puzzling me a bit.)
 
+Email 2
 
-## Using Reweighting Decomposition
+> You can use deciles and centiles for both decompositions (with the kitawaga I think dean's class ended at a 2X3 but you could make that 2X10 or 2X100).  And hopefully it will be clear how to do it with the reweighting after Tuesday, but in case not, I'm happy to talk about it.
 
-## Using Kitagawa Decomposition
+> As for which births to include - let's use the 5 years before the survey to match the published NNM statistics.  Even that is a little complicated though - because the survey took place over a period of about 18 months.  I am not remembering how they defined the look back period.  Could you please read the DHS report (you have have to consult other DHS methodology reports on mortality calculation) to figure it out and let me know?
+
+## Sample Selection
+
+There is a guide on how to calculate NNM here: https://dhsprogram.com/data/Guide-to-DHS-Statistics/Early_Childhood_Mortality.htm
+
+## Reweighting Decomposition
+
+## Kitagawa Decomposition
+
+Referring to *Demography: Measuring and Modeling Population Processes* (2001) by Preston, Heuveline, and Guillot, we can write the equation for the Kitagawa decomposition in this case:
+
+$$x^A - x^B = \sum_{i}\big(x_i^A - x_i^B\big)\Big(\frac{w_i^A + w_i^B}{2}\Big) + \sum_{i}\big(w_i^A - w_i^B\big)\Big(\frac{x_i^A + x_i^B}{2}\Big),$$
+where $i$ indexes every quantile of mother's height for the whole sample, $A$ represents the sub-sample from Uttar Pradesh, $B$ represents the sub-sample from the rest of India, $x_i$ is the neonatal mortality rate for height quantile $i$, and $w_i$ is the proportion of the sample that is in height quantile $i$. The left term gives the amount of the difference in neonatal mortality due to differences in the NNM at each height quantile between Uttar Pradesh and the rest of India; the right term gives the amount due to differences between the height composition of Uttar Pradesh and the rest of India. 
+
+
 
 ## Comparing the Two Methods
