@@ -29,7 +29,7 @@ Email 2
 
 ## Sample Selection
 
-There is a guide on how to calculate NNM here: https://dhsprogram.com/data/Guide-to-DHS-Statistics/Early_Childhood_Mortality.htm
+There is a guide on how to calculate NNM here: <https://dhsprogram.com/data/Guide-to-DHS-Statistics/Early_Childhood_Mortality.htm>
 
 ## Reweighting Decomposition
 
@@ -41,5 +41,13 @@ $$x^A - x^B = \sum_{i}\big(x_i^A - x_i^B\big)\Big(\frac{w_i^A + w_i^B}{2}\Big) +
 where $i$ indexes every quantile of mother's height for the whole sample, $A$ represents the sub-sample from Uttar Pradesh, $B$ represents the sub-sample from the rest of India, $x_i$ is the neonatal mortality rate for height quantile $i$, and $w_i$ is the proportion of the sample that is in height quantile $i$. The left term gives the amount of the difference in neonatal mortality due to differences in the NNM at each height quantile between Uttar Pradesh and the rest of India; the right term gives the amount due to differences between the height composition of Uttar Pradesh and the rest of India. 
 
 
+## Results from and Comparison of the Two Methods
 
-## Comparing the Two Methods
+ Quantile   | Kitagawa - % Explained | Reweighting - % Explained
+------------+------------------------+---------------------------
+ Decile     | 9.1%                   | 6.7%
+ Centile    | 9.3%                   | 7.1%
+
+
+
+
